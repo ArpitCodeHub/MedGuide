@@ -56,7 +56,7 @@ const Signup = () => {
         <h1 className='font-bold text-center text-4xl bg-gradient-to-r from-green-600 to-blue-400 text-transparent bg-clip-text mt-16'> Sign Up </h1>
         <br /><br />
         <div className='mb-5'>
-            <h3 className='text-xl text-cyan-600 font-semibold'>Name</h3>
+            <h3 className='text-xl text-teal-600 font-semibold'>Name</h3>
             <input
             className='px-3 py-3 rounded-lg mt-2 w-full' 
             type="text" 
@@ -66,7 +66,7 @@ const Signup = () => {
             required />
         </div>
         <div className='mb-5'>
-            <h3 className='text-xl text-cyan-600 font-semibold'>Email</h3>
+            <h3 className='text-xl text-teal-600 font-semibold'>Email</h3>
             <input
             className='px-3 py-3 rounded-lg mt-2 w-full'
             type="email" 
@@ -76,7 +76,7 @@ const Signup = () => {
             required />
         </div>
         <div className="mb-5">
-            <h3 className='text-xl text-cyan-600 font-semibold'>Password</h3>
+            <h3 className='text-xl text-teal-600 font-semibold'>Password</h3>
             <input
             className='px-3 py-3 rounded-lg mt-2 w-full' 
             type="password" 
@@ -86,9 +86,9 @@ const Signup = () => {
             required />
         </div>
         <div className="mt-5 text-center" >
-            <button className='bg-cyan-600 text-white text-xl px-3 py-2 rounded-md active:scale-90 border-none hover:bg-cyan-500' type="submit"> Sign Up </button>
+            <button className='bg-teal-600 text-white text-xl px-3 py-2 rounded-md active:scale-90 border-none hover:bg-teal-500' type="submit"> Sign Up </button>
             <br /><br />
-            <span className='text-black'>Already have an account? </span><Link to="/login" className='text-cyan-600 font-semibold'>Login</Link>
+            <span className='text-black'>Already have an account? </span><Link to="/login" className='text-teal-600 font-semibold'>Login</Link>
         </div>
       </form>
     </>

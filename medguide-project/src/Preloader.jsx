@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Spline from '@splinetool/react-spline';
 
-const LOADING_DURATION = 5500; // 5.5 seconds
+const LOADING_DURATION = 5000;    // 5 seconds
 
 const Preloader = () => {
   const [isLoading, setIsLoading] = useState(true);

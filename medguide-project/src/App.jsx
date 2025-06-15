@@ -5,6 +5,9 @@ import Login from "./pages/Login"
 import { ToastContainer, toast } from "react-toastify";
 import Signup from "./pages/Signup";
 import Home from "./pages/Home";    
+import AboutUs from "./pages/AboutUs";
+import FAQ from "./pages/Faq";
+import MedGuide from "./pages/MedGuide";
 
 const App = () => {
   return (
@@ -14,8 +17,11 @@ const App = () => {
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/home" element={<Home />} />
+            <Route path="/about" element={<AboutUs />} />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/medguide" element={<MedGuide />} />
         </Routes>
-        <ToastContainer />
+        <ToastContainer limit={1}/>
     </Router>
   );
 };
