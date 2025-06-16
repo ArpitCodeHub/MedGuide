@@ -6,8 +6,7 @@ import { ToastContainer, toast } from "react-toastify";
 import Signup from "./pages/Signup";
 import Home from "./pages/Home";    
 import AboutUs from "./pages/AboutUs";
-
-import MedGuide from "./pages/MedGuide";
+import MedGuide from "./pages/MedGuide"
 import FAQ from "./pages/Faq";
 
 const App = () => {
